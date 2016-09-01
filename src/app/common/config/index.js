@@ -52,7 +52,7 @@ Config.urlParams = {
 Config.shareObject = {
     title:"萌宝派中秋送好礼",
     desc:"萌宝派中秋送好礼",
-    link:"http://192.168.100.67:3000/",
+    link:window.location.href.split("#")[0].split("?")[0],
     imgUrl:"",
 }
 
