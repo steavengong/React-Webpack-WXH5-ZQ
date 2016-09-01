@@ -4,6 +4,7 @@
 const Config = require('../../../common/config/index');
 
 Config.debug = true;
+let shareImage = require('../../assets/share.png');
 
 Config.requestWXAction = 'http://erpuat.mengbp.com:8090/wine-weixin-rest/cgi';
 Config.requestWXActionDebug = 'http://erpuat.mengbp.com:8090/wine-weixin-rest/cgi';
@@ -53,7 +54,7 @@ Config.shareObject = {
     title:"萌宝派中秋送好礼",
     desc:"萌宝派中秋送好礼",
     link:window.location.href.split("#")[0].split("?")[0],
-    imgUrl:"",
+    imgUrl:shareImage,
 }
 
 Config.waterMark = "@480w_1o.jpeg%7Cwatermark=1&object=SDUvemhvbmdxaXUyMDE2MDgyNi96aG9uZ3FpdWZvci5wbmdANDgwdw&p=5";
