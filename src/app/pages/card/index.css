@@ -1,0 +1,25 @@
+/*card_layer*/
+.img_card_bg{
+    position: absolute;
+    width: 98%;
+    left: calc( (100% - 98% ) / 2);
+    left: -webkit-calc( (100% - 98% ) / 2);
+    z-index: 9;
+    top: 8%;
+}
+
+.img_card_rule{
+    position: absolute;
+    z-index: 10;
+    width: 34.67%;
+    right: 5%;
+    bottom: 5%;
+}
+
+.img_card_start{
+    position: absolute;
+    z-index: 10;
+    width: 46.67%;
+    left: 5%;
+    bottom: 5%;
+}

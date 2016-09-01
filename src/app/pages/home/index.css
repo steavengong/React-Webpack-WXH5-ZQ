@@ -1,0 +1,45 @@
+/*home_part*/
+.img_title{
+    position: absolute;
+    z-index: 10;
+    width: 36.3%;
+    top: 21%;
+    left: 31.9%;
+}
+
+.img_content{
+    position: absolute;
+    z-index: 10;
+    width: 88%;
+    top: 30%;
+    left: 6%;
+}
+
+.img_magazine{
+    position: absolute;
+    z-index: 9;
+    width: 55.9%;
+    left: 4%;
+    bottom: 2%;
+}
+
+.click_group{
+    position: absolute;
+    z-index: 10;
+    width: 39.5%;
+    left: 4%;
+    top: 51%;
+}
+
+.img_click_finger{
+    width: 32.1%;
+    margin-left: 42%;
+}
+
+.img_rabbit{
+    position: absolute;
+    z-index: 10;
+    bottom: 0%;
+    width: 42.7%;
+    right: 0%;
+}

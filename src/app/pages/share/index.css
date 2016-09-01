@@ -1,0 +1,25 @@
+/*share_layer*/
+.img_share_lantern{
+    position: absolute;
+    z-index: 10;
+    width: 10%;
+    right: 8%;
+    top: 10%;
+}
+
+.img_share_moon{
+    position: absolute;
+    z-index: 10;
+    width: 58.27%;
+    left: calc((100% - 58.27%) / 2);
+    left: -webkit-calc((100% - 58.27%) / 2);
+    top: 34%;
+}
+
+.img_share_rabbit{
+    position: absolute;
+    z-index: 9;
+    width: 53.33%;
+    right: 15%;
+    top: 0%;
+}

@@ -1,0 +1,9 @@
+/*gift_layer*/
+.img_gift_bg{
+    position: absolute;
+    z-index: 9;
+    width: 86.27%;
+    left: calc((100% - 86.27%) / 2);
+    left: -webkit-calc((100% - 86.27%) / 2);
+    top: 5%;
+}

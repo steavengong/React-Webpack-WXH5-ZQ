@@ -1,0 +1,53 @@
+/*main_box*/
+.main_box{
+    position: relative;
+    width: inherit;
+    overflow-y: auto;
+    height: inherit;
+}
+
+.background_box{
+    position: relative;
+    width: inherit;
+}
+
+.img_lantern{
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+}
+
+.img_stars{
+    position: absolute;
+    z-index: 9;
+    top: 2.3%;
+    width: 49.1%;
+    left: 40.1%;
+}
+
+.page_part{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 11;
+}
+
+.layer_part{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 12;
+    background-color: rgba(0,0,0,.7);
+}
+
+.img_close{
+    position: absolute;
+    width: 8.27%;
+    z-index: 10;
+    right: 5%;
+    top: 5%;
+}

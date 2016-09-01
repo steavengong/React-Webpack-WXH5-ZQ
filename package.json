@@ -67,9 +67,15 @@
     "postcss-loader": "^0.8.0"
   },
   "dependencies": {
-    "core-js": "^2.0.0",
-    "normalize.css": "^4.0.0",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "cropperjs": "^0.8.0",
+    "dateformat": "^1.0.12",
+    "jquery": "^2.2.4",
+    "normalize.css": "^4.2.0",
+    "promise": "^7.1.1",
+    "react": "^15.3.0",
+    "react-cropper": "^0.9.4",
+    "react-dom": "^15.3.0",
+    "url-params-helper": "^0.1.4",
+    "weixin-js-sdk": "^1.0.7"
   }
 }

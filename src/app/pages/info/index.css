@@ -1,0 +1,109 @@
+/*info_layer*/
+.info_body{
+    position: absolute;
+    width: 86.27%;
+    z-index: 9;
+    padding-bottom: 132%;
+    left: calc( (100% - 86.27%) / 2);
+    top: 13%;
+    text-align: left;
+}
+
+.img_info_bg{
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+}
+
+.info_title{
+    position: absolute;
+    z-index: 11;
+    font-size: 24px;
+    line-height: 30px;
+    left: calc( (100% - 96px) / 2);
+    left: -webkit-calc( (100% - 96px) / 2);
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.info_item_group{
+    position: absolute;
+    z-index: 11;
+    left: 15px;
+    right: 15px;
+    top: 50px;
+    bottom: 35%;
+    overflow-y: scroll;
+    line-height: 30px;
+}
+
+.img_submit{
+    position: absolute;
+    width: 26.67%;
+    z-index: 11;
+    left: calc((100% - 26.67%) / 2);
+    left: -webkit-calc((100% - 26.67%) / 2);
+    bottom: 25%;
+}
+
+.info_item{
+}
+
+.info_item + .info_item{
+    margin-top: 20px;
+}
+
+.item_title{
+    float: left;
+    font-size: 16px;
+}
+
+.item_put{
+    padding-left: 104px;
+}
+
+.put_group{
+    height: 30px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #EAF3FF;
+    position: relative;
+}
+
+.put_group>input,
+.put_group>.select_text,
+.select_text+select,
+.select_text + input{
+    position: absolute;
+    display: block;
+    border: none;
+    padding: 5px 10px;
+    line-height: 20px;
+    background-color: transparent;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: calc( 100%  - 20px );
+    width: -webkit-calc( 100%  - 20px );
+    color: #666666;
+    text-align: center;
+}
+
+.select_text + input{
+    opacity: 0;
+}
+
+.select_text+select{
+    width: 100%;
+    opacity: 0;
+}
+
+select>option{
+    display: block;
+    font-size: 16px;
+}
+
+

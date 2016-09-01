@@ -1,0 +1,83 @@
+/*crop_layer*/
+.crop_layer{
+    background: url('../../assets/crop_bg.png') center no-repeat;
+}
+.img_cancel{
+    position: absolute;
+    z-index: 10;
+    width: 8.93%;
+    top: 3%;
+    left: 4%;
+}
+
+.img_complete{
+    position: absolute;
+    z-index: 10;
+    width: 9.2%;
+    top: 3%;
+    right: 4%;
+}
+
+.cropper_group{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 10%;
+}
+
+.cropper_group .cropper-container{
+}
+
+.img_file_origin{
+    position: absolute;
+}
+
+.img_left{
+    position: absolute;
+    width: 2.53%;
+    left: calc( 100% / 2 - 45px );
+    left: -webkit-calc( 100% / 2 - 45px );
+    top: 70%;
+}
+
+.img_right{
+    position: absolute;
+    width: 2.53%;
+    right: calc( 100% / 2 - 45px );
+    right: -webkit-calc( 100% / 2 - 45px );
+    top: 70%;
+}
+
+.img_top{
+    position: absolute;
+    width: 4.67%;
+    left: calc( (100% - 4.67%) / 2);
+    left: -webkit-calc( (100% - 4.67%) / 2 );
+    top: calc(70% - 30px);
+    top: -webkit-calc(70% - 30px);
+}
+
+.img_bottom{
+    position: absolute;
+    width: 4.67%;
+    left: calc( (100% - 4.67%) / 2);
+    left: -webkit-calc( (100% - 4.67%) / 2 );
+    top: calc(70% + 4.67% + 10px);
+    top: -webkit-calc(70% + 4.67% + 10px);
+}
+
+.img_clock_wise{
+    position: absolute;
+    width: 10%;
+    bottom: 20%;
+    left: calc( (100% - 10%) / 2 - 50px );
+    left: -webkit-calc( (100% - 10%) / 2 - 50px );
+}
+
+.img_anti_clock_wise{
+    position: absolute;
+    width: 10%;
+    bottom: 20%;
+    right: calc( (100% - 10%) / 2 - 50px );
+    right: -webkit-calc( (100% - 10%) / 2 - 50px );
+}

@@ -1,0 +1,52 @@
+/*alert_box*/
+.alert_box{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 12;
+    background-color: rgba(0,0,0,.2);
+    line-height: 30px;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+}
+
+.alert_body{
+    position: absolute;
+    width: 80%;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border: 1px solid #4480D0;
+    left: calc( (100% - 80% ) / 2);
+    left: -webkit-calc( (100% - 80% ) / 2);
+    padding-bottom: 10px;
+    top: calc( (100% - 92px) / 2 );
+    top: -webkit-calc( (100% - 92px) / 2 );
+}
+
+.alert_body_info{
+    top: calc( (100% - 242px) / 2 );
+    top: -webkit-calc( (100% - 242px) / 2 );
+}
+
+
+.alert_content{
+    padding: 10px 10px;
+}
+
+.alert_ok{
+    background-color: #4480D0;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    border-radius: 7px;
+}
+
+.alert_cancel{
+    background-color: #4480D0;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    border-radius: 7px;
+    margin-right: 30px;
+}
